@@ -1,0 +1,33 @@
+{
+  "rdfs:label": "Entity",
+  "rdfs:comment": "# Entity\r\n\r\nClass of Annalist data records that are members of a container (or directory) described by some other data record (cf. [EntityRoot](/annalist/c/RDF_schema/v/Class/Class/EntityRoot/)).\r\n",
+  "rdfs:seeAlso": [
+    {
+      "@id": "/annalist/c/RDF_schema/v/Class/Class/EntityRoot/"
+    },
+    {
+      "@id": "/annalist/c/RDF_schema/v/Class/Class/EntityData/"
+    }
+  ],
+  "annal:type_id": "Class",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    },
+    {
+      "@id": "Class/EntityRoot"
+    }
+  ],
+  "annal:uri": "annal:Entity",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Entity",
+  "@id": "./",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdfs:Class"
+}

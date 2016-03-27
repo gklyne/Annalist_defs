@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "Multiline text",
+  "rdfs:comment": "#  Multiline text\r\n\r\nClass of strings that may contain multiple lines of text.\r\n",
+  "rdfs:seeAlso": [],
+  "annal:type_id": "Class",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:uri": "annal:Longtext",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Longtext",
+  "@id": "./",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    }
+  ],
+  "annal:type": "rdfs:Class"
+}

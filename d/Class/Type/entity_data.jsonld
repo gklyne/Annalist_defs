@@ -1,0 +1,23 @@
+{
+  "rdfs:label": "Type definition",
+  "rdfs:comment": "# Type definition\r\n\r\nThe class of entities that define types (classes) that are used in an Annalist collection.\r\n",
+  "rdfs:seeAlso": [],
+  "annal:type_id": "Class",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:uri": "annal:Type",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Type",
+  "@id": "./",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    }
+  ],
+  "annal:type": "rdfs:Class"
+}

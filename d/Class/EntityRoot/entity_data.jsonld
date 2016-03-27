@@ -1,0 +1,30 @@
+{
+  "rdfs:label": "Root entity",
+  "rdfs:comment": "# Root entity\r\n\r\nClass of all Annalist entity data records, including the root entity of a site.  (cf. [Entity](/annalist/c/RDF_schema/v/Class/Class/Entity/).)",
+  "rdfs:seeAlso": [
+    {
+      "@id": "/annalist/c/RDF_schema/v/Class/Class/Entity/"
+    },
+    {
+      "@id": "/annalist/c/RDF_schema/v/Class/Class/EntityData/"
+    }
+  ],
+  "annal:type_id": "Class",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:uri": "annal:EntityRoot",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "EntityRoot",
+  "@id": "./",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    }
+  ],
+  "annal:type": "rdfs:Class"
+}

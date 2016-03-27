@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Entity URI",
+  "rdfs:comment": "# Entity URI\r\n\r\nIndicates a stable global identifier for an entity (e.g. for a class, property or other entity that can have significance outside the collection in which it is defined or described.  The value is a URI or CURIE, which is preferably an absolute URI, not a relative reference.  Internally, Annalist assigns a value that is the same as `annal:url` if no explicit value is specified.\r\n",
+  "rdfs:subPropertyOf": [],
+  "rdfs:range": [],
+  "annal:type_id": "Property",
+  "rdfs:domain": [],
+  "annal:uri": "annal:uri",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "uri",
+  "@id": "./",
+  "@type": [
+    "rdf:Property",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdf:Property"
+}

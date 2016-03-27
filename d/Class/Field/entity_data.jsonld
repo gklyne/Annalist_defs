@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "Field definition",
+  "rdfs:comment": "# Field definition\r\n\r\nClass of Annalist data records that are field definitions.  Field definitions are referenced by view definitions, list definitions and field group definitions.",
+  "rdfs:seeAlso": [],
+  "annal:type_id": "Class",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    },
+    {
+      "@id": "Class/Entity"
+    }
+  ],
+  "annal:uri": "annal:Field",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Field",
+  "@id": "./",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdfs:Class"
+}

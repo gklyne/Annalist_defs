@@ -1,0 +1,18 @@
+{
+  "rdfs:label": "Text",
+  "rdfs:comment": "Text",
+  "rdfs:seeAlso": [],
+  "annal:type_id": "Class",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "Text",
+  "@id": "./",
+  "rdfs:subClassOf": [],
+  "annal:type": "rdfs:Class"
+}

@@ -1,0 +1,21 @@
+{
+  "rdfs:label": "Definitions for defining RDF schema for vocabularies",
+  "rdfs:comment": "Definitions for defining RDF schema for vocabularies",
+  "annal:software_version": "0.1.29",
+  "annal:type_id": "_coll",
+  "annal:inherit_from": "",
+  "annal:comment": "",
+  "annal:default_list": "Type_list",
+  "annal:default_view_entity": null,
+  "annal:default_view_type": null,
+  "@id": "../",
+  "annal:default_view_id": null,
+  "@context": [
+    "coll_context.jsonld"
+  ],
+  "annal:id": "Schema_defs",
+  "@type": [
+    "annal:Collection"
+  ],
+  "annal:type": "annal:Collection"
+}

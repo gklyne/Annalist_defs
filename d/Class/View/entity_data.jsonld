@@ -1,0 +1,26 @@
+{
+  "rdfs:label": "View definition",
+  "rdfs:comment": "# View definition\r\n\r\nClass of entities that define viewing or editing presentation of an entity in a collection.\r\n",
+  "rdfs:seeAlso": [],
+  "annal:type_id": "Class",
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    },
+    {
+      "@id": "Class/Entity"
+    }
+  ],
+  "annal:uri": "annal:View",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "View",
+  "@id": "./",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdfs:Class"
+}

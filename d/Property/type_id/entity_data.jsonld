@@ -1,0 +1,20 @@
+{
+  "rdfs:label": "Entity type id",
+  "rdfs:comment": "# Entity type identifier\r\n\r\nA short identifier that identifies the type of an entity in a collection.  This corresponds to the entity identifier (`annal:id`) of the type of which the entity is an instance.",
+  "rdfs:subPropertyOf": [],
+  "rdfs:range": [],
+  "annal:type_id": "Property",
+  "rdfs:domain": [],
+  "annal:uri": "annal:type_id",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "type_id",
+  "@id": "./",
+  "@type": [
+    "rdf:Property",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdf:Property"
+}

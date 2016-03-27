@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Software version",
+  "rdfs:comment": "# Software version\r\n\r\nSoftware version compatibility: the oldest version of Annalist software with which the collection is compatible. This value is maintained by the Annalist software, and may be updated whenever any value in a collection is updated.",
+  "rdfs:subPropertyOf": [],
+  "rdfs:range": [
+    {
+      "@id": "annal:Text"
+    }
+  ],
+  "annal:type_id": "Property",
+  "rdfs:domain": [
+    {
+      "@id": "annal:Collection"
+    }
+  ],
+  "annal:uri": "annal:software_version",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "software_version",
+  "@id": "./",
+  "@type": [
+    "rdf:Property",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdf:Property"
+}
