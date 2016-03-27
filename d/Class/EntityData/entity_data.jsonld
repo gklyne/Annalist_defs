@@ -1,6 +1,19 @@
 {
-  "rdfs:label": "EntityData",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:id": "EntityData",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:EntityData",
   "rdfs:comment": "# Entity data\r\n\r\nClass of Annalist data records that are members of a user-defined Annalist data type.\r\n",
+  "rdfs:label": "EntityData",
   "rdfs:seeAlso": [
     {
       "@id": "/annalist/c/RDF_schema/v/Class/Class/EntityRoot/"
@@ -9,7 +22,6 @@
       "@id": "/annalist/c/RDF_schema/v/Class/Class/Entity/"
     }
   ],
-  "annal:type_id": "Class",
   "rdfs:subClassOf": [
     {
       "@id": "Class/Resource"
@@ -20,17 +32,5 @@
     {
       "@id": "Class/Entity"
     }
-  ],
-  "annal:uri": "annal:EntityData",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
-  "annal:id": "EntityData",
-  "@id": "./",
-  "@type": [
-    "rdfs:Class",
-    "rdfs:Resource",
-    "annal:EntityData"
-  ],
-  "annal:type": "rdfs:Class"
+  ]
 }

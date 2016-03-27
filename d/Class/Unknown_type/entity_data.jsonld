@@ -1,23 +1,23 @@
 {
-  "rdfs:label": "Unknown type",
-  "rdfs:comment": "# Unknown type\r\n\r\nPlaceholder type for values whose type is not specified.",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:uri": "annal:Unknown_type",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
   "annal:id": "Unknown_type",
-  "@id": "./",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:Unknown_type",
+  "rdfs:comment": "# Unknown type\r\n\r\nPlaceholder type for values whose type is not specified.",
+  "rdfs:label": "Unknown type",
+  "rdfs:seeAlso": [],
   "rdfs:subClassOf": [
     {
       "@id": "Class/Resource"
     }
-  ],
-  "annal:type": "rdfs:Class"
+  ]
 }

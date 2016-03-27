@@ -1,0 +1,19 @@
+{
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
+  "@type": [
+    "rdfs:Class",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:id": "Boolean",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:Boolean",
+  "rdfs:comment": "# Boolean\r\n\r\nA field value stored as `true` or `false`.\r\n",
+  "rdfs:label": "Boolean",
+  "rdfs:seeAlso": [],
+  "rdfs:subClassOf": []
+}

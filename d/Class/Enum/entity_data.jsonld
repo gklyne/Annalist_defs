@@ -1,23 +1,23 @@
 {
-  "rdfs:label": "Enumerated type",
-  "rdfs:comment": "# Enumerated type\r\n\r\nSuperclass of all classes that are defined as enumerations of their instances.  The instances of an enumeration class are URIs.\r\n",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
-  "rdfs:subClassOf": [
-    {
-      "@id": "Class/Resource"
-    }
-  ],
-  "annal:uri": "annal:Enum",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Enum",
   "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:type": "rdfs:Class"
+  "annal:id": "Enum",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:Enum",
+  "rdfs:comment": "# Enumerated type\r\n\r\nSuperclass of all classes that are defined as enumerations of their instances.  The instances of an enumeration class are URIs.\r\n",
+  "rdfs:label": "Enumerated type",
+  "rdfs:seeAlso": [],
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    }
+  ]
 }

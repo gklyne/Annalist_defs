@@ -1,24 +1,24 @@
 {
-  "rdfs:label": "Alias source",
-  "rdfs:comment": "# Field alias source URI or CURIE\r\n\r\nThis is a property URI that is returned as the value of a field alias accessed using the corresponding [annal:alias_target](/annalist/c/Annalist_defs/d/Property/alias_target/) property URI.\r\n\r\nSee also: [annal:field_aliases](/annalist/c/Annalist_defs/d/Property/field_aliases/).\r\n",
-  "rdfs:subPropertyOf": [],
-  "rdfs:range": [
-    {
-      "@id": "annal:Identifier"
-    }
-  ],
-  "annal:type_id": "Property",
-  "rdfs:domain": [],
-  "annal:uri": "annal:alias_source",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "alias_source",
   "@id": "./",
   "@type": [
     "rdf:Property",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:type": "rdf:Property"
+  "annal:id": "alias_source",
+  "annal:type": "rdf:Property",
+  "annal:type_id": "Property",
+  "annal:uri": "annal:alias_source",
+  "rdfs:comment": "# Field alias source URI or CURIE\r\n\r\nThis is a property URI that is returned as the value of a field alias accessed using the corresponding [annal:alias_target](/annalist/c/Annalist_defs/d/Property/alias_target/) property URI.\r\n\r\nSee also: [annal:field_aliases](/annalist/c/Annalist_defs/d/Property/field_aliases/).\r\n",
+  "rdfs:domain": [],
+  "rdfs:label": "Alias source",
+  "rdfs:range": [
+    {
+      "@id": "annal:Identifier"
+    }
+  ],
+  "rdfs:subPropertyOf": []
 }

@@ -1,24 +1,24 @@
 {
-  "rdfs:label": "Range group",
-  "rdfs:comment": "# Range group\r\n\r\nGroup used for repeated range of a property.\r\n",
-  "annal:add_field": true,
-  "annal:type_id": "_group",
-  "annal:record_type": "rdf:Property",
-  "annal:uri": "annal:group/_initial_values",
-  "annal:group_fields": [
-    {
-      "annal:property_uri": "@id",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/range"
-    }
-  ],
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "range_r",
   "@id": "./",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:add_field": true,
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/range",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:id": "range_r",
+  "annal:record_type": "rdf:Property",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "annal:uri": "annal:group/_initial_values",
+  "rdfs:comment": "# Range group\r\n\r\nGroup used for repeated range of a property.\r\n",
+  "rdfs:label": "Range group"
 }

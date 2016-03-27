@@ -1,24 +1,24 @@
 {
-  "rdfs:label": "Superproperty",
-  "rdfs:comment": "Superproperty URI or CURIE in list of superproperties.",
-  "annal:id": "subpropertyOf_r",
-  "annal:type_id": "_group",
-  "annal:record_type": "rdf:Property",
-  "annal:uri": "annal:group/_initial_values",
-  "annal:group_fields": [
-    {
-      "annal:property_uri": "@id",
-      "annal:field_placement": "small:0,12",
-      "annal:field_id": "_field/subpropertyOf"
-    }
-  ],
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:add_field": true,
   "@id": "./",
   "@type": [
     "annal:Field_group"
   ],
-  "annal:type": "annal:Field_group"
+  "annal:add_field": true,
+  "annal:group_fields": [
+    {
+      "annal:field_id": "_field/subpropertyOf",
+      "annal:field_placement": "small:0,12",
+      "annal:property_uri": "@id"
+    }
+  ],
+  "annal:id": "subpropertyOf_r",
+  "annal:record_type": "rdf:Property",
+  "annal:type": "annal:Field_group",
+  "annal:type_id": "_group",
+  "annal:uri": "annal:group/_initial_values",
+  "rdfs:comment": "Superproperty URI or CURIE in list of superproperties.",
+  "rdfs:label": "Superproperty"
 }

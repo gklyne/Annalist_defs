@@ -1,23 +1,23 @@
 {
-  "rdfs:label": "List definition",
-  "rdfs:comment": "# List definition\r\n\r\nClass of entities that define list presentation of entities in a collection.\r\n",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:uri": "annal:List",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
   "annal:id": "List",
-  "@id": "./",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:List",
+  "rdfs:comment": "# List definition\r\n\r\nClass of entities that define list presentation of entities in a collection.\r\n",
+  "rdfs:label": "List definition",
+  "rdfs:seeAlso": [],
   "rdfs:subClassOf": [
     {
       "@id": "Class/Resource"
     }
-  ],
-  "annal:type": "rdfs:Class"
+  ]
 }

@@ -1,23 +1,23 @@
 {
-  "rdfs:label": "Audio clip",
-  "rdfs:comment": "# Audio clip\r\n\r\nRendered value is an audio clip.  Usually, the field value is a reference to a local audio file, or an audio resource on the web.  Supported audio formats are those that can be played by a web browser.  Currently, those recognized are:\r\n\r\n* `.audio`:   audio/*\r\n* `.mp3`:     audio/mpeg\r\n* `.mp4`:     audio/mp4\r\n* `.wav`:     audio/wav\r\n* `.ogg`:     audio/ogg\r\n\r\n",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
-  "rdfs:subClassOf": [
-    {
-      "@id": "Class/Resource"
-    }
-  ],
-  "annal:uri": "annal:Audio",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Audio",
   "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:type": "rdfs:Class"
+  "annal:id": "Audio",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:Audio",
+  "rdfs:comment": "# Audio clip\r\n\r\nRendered value is an audio clip.  Usually, the field value is a reference to a local audio file, or an audio resource on the web.  Supported audio formats are those that can be played by a web browser.  Currently, those recognized are:\r\n\r\n* `.audio`:   audio/*\r\n* `.mp3`:     audio/mpeg\r\n* `.mp4`:     audio/mp4\r\n* `.wav`:     audio/wav\r\n* `.ogg`:     audio/ogg\r\n\r\n",
+  "rdfs:label": "Audio clip",
+  "rdfs:seeAlso": [],
+  "rdfs:subClassOf": [
+    {
+      "@id": "Class/Resource"
+    }
+  ]
 }

@@ -1,18 +1,19 @@
 {
-  "rdfs:label": "Text",
-  "rdfs:comment": "Text",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
   "annal:id": "Text",
-  "@id": "./",
-  "rdfs:subClassOf": [],
-  "annal:type": "rdfs:Class"
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "",
+  "rdfs:comment": "# Text\r\n\r\nSimple line of text without line breaks, presentation options or other special characters.\r\n\r\n(Cf. ``Longtext` and `Richtext`.)",
+  "rdfs:label": "Text",
+  "rdfs:seeAlso": [],
+  "rdfs:subClassOf": []
 }

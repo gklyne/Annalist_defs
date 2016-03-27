@@ -1,28 +1,28 @@
 {
-  "rdfs:label": "Meta comment",
-  "rdfs:comment": "# Collection metadata comment\r\n\r\nA description of `Collection` metadata creation details - this is used for maintenance purposes to provide an indication of the provenance of the collection metadata, and can be ignored for most purposes.",
-  "rdfs:subPropertyOf": [],
-  "rdfs:range": [
-    {
-      "@id": "annal:Richtext"
-    }
-  ],
-  "annal:type_id": "Property",
-  "rdfs:domain": [
-    {
-      "@id": "annal:Collection"
-    }
-  ],
-  "annal:uri": "annal:meta_comment",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "meta_comment",
   "@id": "./",
   "@type": [
     "rdf:Property",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:type": "rdf:Property"
+  "annal:id": "meta_comment",
+  "annal:type": "rdf:Property",
+  "annal:type_id": "Property",
+  "annal:uri": "annal:meta_comment",
+  "rdfs:comment": "# Collection metadata comment\r\n\r\nA description of `Collection` metadata creation details - this is used for maintenance purposes to provide an indication of the provenance of the collection metadata, and can be ignored for most purposes.",
+  "rdfs:domain": [
+    {
+      "@id": "annal:Collection"
+    }
+  ],
+  "rdfs:label": "Meta comment",
+  "rdfs:range": [
+    {
+      "@id": "annal:Richtext"
+    }
+  ],
+  "rdfs:subPropertyOf": []
 }

@@ -1,23 +1,23 @@
 {
-  "rdfs:label": "Data collection",
-  "rdfs:comment": "# Annalist data Collection\r\n\r\nAn Annalist data collection, consisting of collection definitions (types, views, etc.) and data records.",
-  "rdfs:seeAlso": [],
-  "annal:type_id": "Class",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "@id": "./",
   "@type": [
     "rdfs:Class",
     "rdfs:Resource",
     "annal:EntityData"
   ],
-  "annal:uri": "annal:Collection",
-  "@context": [
-    "../../coll_context.jsonld"
-  ],
   "annal:id": "Collection",
-  "@id": "./",
+  "annal:type": "rdfs:Class",
+  "annal:type_id": "Class",
+  "annal:uri": "annal:Collection",
+  "rdfs:comment": "# Annalist data Collection\r\n\r\nAn Annalist data collection, consisting of collection definitions (types, views, etc.) and data records.",
+  "rdfs:label": "Data collection",
+  "rdfs:seeAlso": [],
   "rdfs:subClassOf": [
     {
       "@id": "Class/Resource"
     }
-  ],
-  "annal:type": "rdfs:Class"
+  ]
 }

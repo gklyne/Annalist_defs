@@ -1,28 +1,28 @@
 {
-  "rdfs:label": "Subproperty of",
-  "rdfs:comment": "Indicates a superproperty of which the current property is a subproperty.  That is, any statement containing the current property infers a similar statement in which the property is replaced by the indicated superproperty.",
-  "annal:group_ref": "",
-  "annal:type_id": "_field",
-  "annal:placeholder": "",
-  "annal:property_uri": "rdfs:subPropertyOf",
-  "annal:field_ref_type": "_type/Property",
-  "annal:field_entity_type": "rdf:Property",
-  "@id": "./",
-  "annal:repeat_label_delete": "",
-  "annal:field_ref_restriction": "",
-  "annal:field_placement": "small:0,12",
-  "annal:repeat_label_add": "",
-  "annal:default_value": "",
-  "annal:field_value_type": "annal:Identifier",
-  "annal:field_value_mode": "Enum_value_mode/Value_entity",
-  "annal:field_render_type": "Enum_render_type/Enum",
-  "annal:field_ref_field": "",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "subpropertyOf",
+  "@id": "./",
   "@type": [
     "annal:Field"
   ],
-  "annal:type": "annal:Field"
+  "annal:default_value": "",
+  "annal:field_entity_type": "rdf:Property",
+  "annal:field_placement": "small:0,12",
+  "annal:field_ref_field": "",
+  "annal:field_ref_restriction": "",
+  "annal:field_ref_type": "_type/Property",
+  "annal:field_render_type": "Enum_render_type/Enum",
+  "annal:field_value_mode": "Enum_value_mode/Value_entity",
+  "annal:field_value_type": "annal:Identifier",
+  "annal:group_ref": "",
+  "annal:id": "subpropertyOf",
+  "annal:placeholder": "",
+  "annal:property_uri": "rdfs:subPropertyOf",
+  "annal:repeat_label_add": "",
+  "annal:repeat_label_delete": "",
+  "annal:type": "annal:Field",
+  "annal:type_id": "_field",
+  "rdfs:comment": "Indicates a superproperty of which the current property is a subproperty.  That is, any statement containing the current property infers a similar statement in which the property is replaced by the indicated superproperty.",
+  "rdfs:label": "Subproperty of"
 }
