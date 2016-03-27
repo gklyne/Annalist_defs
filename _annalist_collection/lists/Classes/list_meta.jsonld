@@ -1,12 +1,12 @@
 {
+  "annal:display_type": "Enum_list_type/List",
   "rdfs:label": "Classes",
   "rdfs:comment": "# List resource classes\r\n\r\nDisplays a list of [Class](/annalist/c/RDF_schema/d/_type/Class/) values.\r\n\r\n",
-  "annal:default_view": "_view/Class",
+  "annal:id": "Classes",
   "annal:default_type": "_type/Class",
-  "annal:record_type": "rdfs:Class",
   "annal:type_id": "_list",
   "annal:list_entity_selector": "'rdfs:Class' in [@type]",
-  "annal:display_type": "Enum_list_type/List",
+  "annal:record_type": "rdfs:Class",
   "annal:list_fields": [
     {
       "annal:field_placement": "small:0,3",
@@ -24,7 +24,7 @@
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Classes",
+  "annal:default_view": "_view/Class",
   "@id": "./",
   "@type": [
     "annal:List"

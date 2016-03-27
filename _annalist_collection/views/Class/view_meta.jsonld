@@ -38,13 +38,13 @@
   ],
   "rdfs:label": "Class",
   "rdfs:comment": "# Class view",
-  "annal:id": "Class",
+  "annal:open_view": true,
   "annal:type_id": "_view",
   "annal:record_type": "rdfs:Class",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:open_view": true,
+  "annal:id": "Class",
   "@id": "./",
   "@type": [
     "annal:View"

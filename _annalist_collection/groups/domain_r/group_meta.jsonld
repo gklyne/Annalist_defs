@@ -1,7 +1,7 @@
 {
   "rdfs:label": "Domain group",
   "rdfs:comment": "# Domain\r\n\r\nGroup for repeating field 'Domain'.\r\n",
-  "annal:add_field": true,
+  "annal:id": "domain_r",
   "annal:type_id": "_group",
   "annal:record_type": "rdf:Property",
   "annal:uri": "annal:group/_initial_values",
@@ -15,7 +15,7 @@
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "domain_r",
+  "annal:add_field": true,
   "@id": "./",
   "@type": [
     "annal:Field_group"

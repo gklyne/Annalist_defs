@@ -43,13 +43,13 @@
   ],
   "rdfs:label": "Property",
   "rdfs:comment": "# Property view\r\n\r\nView of property used as type of relation between resources.\r\n\r\n",
-  "annal:open_view": true,
+  "annal:id": "Property",
   "annal:type_id": "_view",
   "annal:record_type": "rdf:Property",
   "@context": [
     "../../coll_context.jsonld"
   ],
-  "annal:id": "Property",
+  "annal:open_view": true,
   "@id": "./",
   "@type": [
     "annal:View"
