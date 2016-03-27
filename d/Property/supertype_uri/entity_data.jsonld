@@ -1,0 +1,28 @@
+{
+  "rdfs:label": "Supertype URI",
+  "rdfs:comment": "# Supertype URI\r\n\r\nURI or CURIE of supertype of class.\r\n",
+  "rdfs:subPropertyOf": [],
+  "rdfs:range": [
+    {
+      "@id": "annal:Identifier"
+    }
+  ],
+  "annal:type_id": "Property",
+  "rdfs:domain": [
+    {
+      "@id": "annal:Type"
+    }
+  ],
+  "annal:uri": "annal:supertype_uri",
+  "@context": [
+    "../../coll_context.jsonld"
+  ],
+  "annal:id": "supertype_uri",
+  "@id": "./",
+  "@type": [
+    "rdf:Property",
+    "rdfs:Resource",
+    "annal:EntityData"
+  ],
+  "annal:type": "rdf:Property"
+}
