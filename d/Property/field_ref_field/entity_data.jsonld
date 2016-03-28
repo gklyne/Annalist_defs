@@ -18,7 +18,7 @@
       "@id": "annal:Field"
     }
   ],
-  "rdfs:label": "Property URI of referenced entity field",
+  "rdfs:label": "Referenced field URI",
   "rdfs:range": [
     {
       "@id": "annal:Identifier"
